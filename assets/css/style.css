@@ -94,7 +94,9 @@ We are making the product card not growable, not shrinkable, and with an initial
 .card img {
   width: 100%;
 }
-
+footer ul li {
+  list-style-type: none;
+}
 /* 
 What does the flex-direction property define?
 It defines in which direction the container wants to stack the flex items
