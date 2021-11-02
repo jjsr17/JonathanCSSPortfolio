@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: serif;
   margin: 0;
 }
 
@@ -20,7 +20,7 @@ The flex container becomes flexible
 */
 nav {
   display: flex;
-  background-color: #05206b;
+  background-color: #13293d;
 }
 
 nav a {
@@ -41,10 +41,10 @@ main {
 
 aside {
   flex: 1;
-  background-color: #05206b;
+  background-color: #fff;
   padding: 80px;
   text-align: center;
-  color: #fff;
+  color:black;
 }
 
 footer {
