@@ -29,7 +29,31 @@ nav a {
   text-decoration: none;
   text-align: center;
 }
+button {
+  width: 100px;
+  margin: 0 .5%;
+  font-size: 100%;
+  color: #13293d;
+  background-color: #fff;
+  border: 3px solid #ffffff;
+}
+/* The user's cursor is positioned over the element */
 
+button:hover {
+  background-color: #ecf5f7;
+  color: #fff;
+}
+/* The user is actively pressing down on the element */
+button:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+/* The element is currently in focus, either by tabbing to or clicking on it */
+button:focus {
+  outline: none;
+  border-color: #8ac4ff;
+}
 /* 
 What is the flex-wrap property?
 It specifies whether the flex items should wrap or not 
