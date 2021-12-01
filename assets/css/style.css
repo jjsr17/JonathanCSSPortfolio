@@ -103,8 +103,14 @@ We are making the product card not growable, not shrinkable, and with an initial
   border-width: 5px;
   border-radius: 10px;
   padding: 10px;
-  flex: 0 0 4
-  400px;
+  flex: 0 0 400px;
+}
+.card1 {
+  border-style: double;
+  border-width: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 800px;
 }
 
 .card header {
@@ -121,6 +127,22 @@ We are making the product card not growable, not shrinkable, and with an initial
 .card img {
   width: 100%;
 }
+
+.card1 img {
+  width: 100%;
+}
+
+.card1 header {
+  padding: 20px;
+}
+
+.card1 p {
+  text-align: center;
+}
+.card1 a {
+  text-align: center; 
+}
+
 footer ul li {
   list-style-type: none;
   font-size:25px;
