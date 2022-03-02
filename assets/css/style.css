@@ -21,6 +21,7 @@ The flex container becomes flexible
 nav {
   display: flex;
   background-color: #13293d;
+  
 }
 
 nav a {
